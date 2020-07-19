@@ -6,7 +6,7 @@ goto :main
 setlocal
     
     rem for with set of strings
-    for %%i in (some text rigth here) do (
+    for %%i in (text rigth here) do (
         echo %%i
     ) 
 
