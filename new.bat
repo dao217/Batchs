@@ -5,9 +5,7 @@ goto :main
 :main
 setlocal
 
-    ::stdout
-    dir /b 2 > new_file1.txt 
-    dir /b 2 > new_file3.txt 
+    echo something text here >text1.txt
 
 endlocal
 goto:eof
